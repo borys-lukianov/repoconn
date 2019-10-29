@@ -1,0 +1,21 @@
+{
+  "locales": [
+    {
+      "smartling" : "zh-CN",
+      "application" : "zh-Hans"
+    },
+    {
+      "smartling" : "zh-TW",
+      "application" : "zh-Hant"
+    }
+  ],
+  "resourceSets": [
+    {
+      "type"                      : "javaProperties",
+      "authorizeContent"          : false,
+      "pathRegex"                 : "untranslated\\/.*\\.properties",
+      "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+      "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
+    }
+  ]
+}
