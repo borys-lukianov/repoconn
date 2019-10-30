@@ -9,7 +9,6 @@
       "application" : "zh-Hant"
     }
   ],
-
   "resourceSets": [
     {
       "type"                      : "javaProperties",
